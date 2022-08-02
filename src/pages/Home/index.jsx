@@ -12,12 +12,13 @@ const Home = (searchKey) => {
             {/* Page Header */}
             <Header />
             {/* Search Bar */}
-            <SearchBar
+            <SearchBar />
+            {/* <SearchBar
                 value={searchKey}
                 clearSearch={handleClearSearch}
                 formSubmit={handleSearchBar}
                 handleSearchKey={(e) => setSearchKey(e.target.value)}
-            />
+            /> */}
 
             {/* Blog & Empty View */}
             {/* {!blogs.length ? <EmptyList /> : <BlogList blogs={blogs} />} */}
